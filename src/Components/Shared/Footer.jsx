@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
+import './navBar.css'
 import logo from "../../../public/images/logo.png";
 
 export default function Footer() {
@@ -18,7 +19,7 @@ export default function Footer() {
             : ""
         }
       >
-        <div className="bg-footerBg bg-fixed relative mt-10 py-20 flex justify-between flex-wrap max-sm:px-[1rem] sm:px-[2.5rem] md:px-[3rem] lg:px-[4rem] xl:px-[12rem]">
+        <div className="bg-footerBg bg-fixed relative mt-10 py-20 flex justify-between flex-wrap max-sm:px-[1rem] sm:px-[2.5rem] md:px-[3rem] lg:px-[4rem] xl:px-[12rem] m-0">
           <div className="max-sm:w-10/12 sm:w-5/12 md:w-5/12 lg:w-5/12 xl:w-3/12  max-sm:flex max-sm:justify-center mt-5">
             <div className="space-y-5 mx-2 ">
               {/* <img
@@ -28,7 +29,7 @@ export default function Footer() {
               /> */}
               {/* <Link to="/">
                 <img src={logo} className="w-20" /> */}
-              <h1 className=" text-white">Khoulod</h1>
+              <h1 className=" text-white font">Khoulod</h1>
               {/* </Link> */}
               <p className=" text-gray-300 text-base capitalize ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum facere aspernatur, voluptatem ipsa laudantium recusandae?
@@ -78,32 +79,12 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="max-sm:w-10/12 sm:w-5/12 md:w-5/12 lg:w-5/12 xl:w-3/12 xl:ms-5 space-y-5 max-sm:my-5 mt-5">
-            <h4 className="font text-white font-semibold text-xl">
-              Categories
-            </h4>
-            <hr className=" w-14 "></hr>
-            <ul className=" text-gray-300 font-semibold list-disc px-3 grid grid-cols-2">
-              <li className=" hover:text-secondary hover:translate-x-3 duration-300 cursor-pointer">
-                BAGS
-              </li>
-              <li className=" hover:text-secondary hover:translate-x-3 duration-300 cursor-pointer">
-                T-SHIRTS
-              </li>
-              <li className=" hover:text-secondary hover:translate-x-3 duration-300 cursor-pointer">
-                SCARF
-              </li>
-              <li className=" hover:text-secondary hover:translate-x-3 duration-300 cursor-pointer">
-                WATCHES
-              </li>
               {/* <li className=" hover:text-secondary hover:translate-x-3 duration-300 cursor-pointer">
                 Doors
               </li>
               <li className=" hover:text-secondary hover:translate-x-3 duration-300 cursor-pointer">
                 Drawers
               </li> */}
-            </ul>
-          </div>
 
           <div className="max-sm:w-10/12 sm:w-5/12 md:w-5/12 lg:w-5/12 xl:w-3/12 space-y-5 mt-5">
             <h4 className="font text-white font-semibold text-xl">Contact</h4>
@@ -111,18 +92,18 @@ export default function Footer() {
 
             <div className="flex space-x-2">
               <i className="fa-solid fa-location-dot text-gray-300 py-1"></i>
-              <p className=" text-gray-300">Abu Dhabi , United Arab Emirates</p>
+              <p className=" text-gray-300">Abu Dhabi , Al Zahia ,Tourist Club , United Arab Emirates</p>
             </div>
             <div className="group flex space-x-2 cursor-pointer">
               <i className="fa-solid fa-envelope text-gray-300 py-1  group-hover:text-gray-300 duration-300"></i>
               <p className=" text-gray-300  group-hover:text-secondary  duration-300">
-                Khoulod@example.com
+                Khoulod@gmail.com
               </p>
             </div>
             <div className="group flex space-x-2 cursor-pointer">
               <i className="fa-solid fa-phone text-gray-300 py-1 group-hover:text-gray-300 duration-300"></i>
               <p className=" text-gray-300 group-hover:text-secondary  duration-300">
-                0096123456789
+                +971 56 117 1023
               </p>
             </div>
           </div>

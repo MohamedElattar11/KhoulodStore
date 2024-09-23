@@ -77,7 +77,7 @@ function SingleProduct({ product, setItemsInCart, setItemsInWishlist }) {
               Add to cart
             </button>
             <p className="text-end font-bold max-sm:order-1 text-black">
-              ${product?.price}
+             {product?.price}  AED
             </p>
           </div>
         </div>

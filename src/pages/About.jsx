@@ -18,8 +18,8 @@ const About = () => {
     <div>
       <div className="relative">
         <img
-          className="w-full h-[40vh] lg:h-[45vh]"
-          src={"../../public/images/logo.png"}
+          className="w-full h-[40vh] lg:h-[45vh] opacity-25 "
+          src={"../../public/images/About/team1.jpg"}
           alt="Cover"
           style={{ opacity: "0.8" }}
         />

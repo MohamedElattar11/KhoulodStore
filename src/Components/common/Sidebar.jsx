@@ -133,7 +133,7 @@ const Sidebar = ({setItemsInCart, itemInCart,setItemsInWishlist,itemsInWishlist}
           <div className="relative flex items-center z-20 justify-end rounded-tr-xl">
             <div
               className={`h-[90%] pt-3 overflow-hidden fixed bottom-0 bg-bgColor rounded-tr-xl  duration-500 transition-left text-white  ${
-                isMenuOpen
+                isMenuOpen 
                   ? "-left-[200px] w-[250px] md:-left-[300px] md:w-[350px]"
                   : "left-0 w-[300px] md:w-[350px]"
               }`}

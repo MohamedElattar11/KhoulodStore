@@ -18,15 +18,15 @@ const FilterMenu = ({
       <div className="filterPrice  ps-4 mb-8">
         <h1 className="text-lg mb-4">Price</h1>
         <label htmlFor="vol" className="text-gray-700">
-          Price (between 5000 and 30000):
+          Price (between 30 and 700):
         </label>
         <input
           type="range"
           id="vol"
           name="vol"
-          min="5000"
-          max="30000"
-          step="5000"
+          min="0"
+          max="700"
+          step="50"
           className="w-full h-6 outline-none bg-blue-200 rounded-md appearance-none focus😮utline-none focus:bg-blue-400"
           value={price}
           onChange={(e) => {
@@ -35,12 +35,14 @@ const FilterMenu = ({
           }}
         />
         <div className="w-full flex justify-between text-xs px-2">
-          <span className="text-black">5000</span>
-          <span className="text-black">10000</span>
-          <span className="text-black">15000</span>
-          <span className="text-black">20000</span>
-          <span className="text-black">25000</span>
-          <span className="text-black">30000</span>
+          <span className="text-black">0</span>
+          <span className="text-black">100</span>
+          <span className="text-black">200</span>
+          <span className="text-black">300</span>
+          <span className="text-black">400</span>
+          <span className="text-black">500</span>
+          <span className="text-black">600</span>
+          <span className="text-black">700</span>
         </div>
       </div>
       <div className="filterRate  ps-4 mb-8">
@@ -104,7 +106,7 @@ const FilterMenu = ({
           })}
         </div>
       </div>
-      <div className="filtercolor mb-4 ps-4">
+      {/* <div className="filtercolor mb-4 ps-4">
         <h1 className="text-lg mb-4 font-bold">Color</h1>
         <div className=" flex justify-center flex-col ms-5">
           <h5
@@ -136,7 +138,7 @@ const FilterMenu = ({
             );
           })}
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

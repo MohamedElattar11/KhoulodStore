@@ -13,7 +13,7 @@ const Contact = () => {
   const cards = [
     {
       icon: "phone.svg",
-      desc: "0097123456789",
+      desc: "+971 56 117 1023",
     },
     {
       icon: "email.svg",
@@ -21,7 +21,7 @@ const Contact = () => {
     },
     {
       icon: "location.svg",
-      desc: "Abu Dhabi, United Arab Emirates",
+      desc: "Abu Dhabi,Al Zahia,Tourist Club , United Arab Emirates",
     },
   ];
 

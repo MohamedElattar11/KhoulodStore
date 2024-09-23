@@ -289,7 +289,7 @@ function ProductDetails({
           <div className="Alldetails lg:w-1/3 sm:w-full md:w-full  ">
             <div className=" text-lg p-8">
               <h4 className="text-blue-900">{oneProduct?.title}</h4>
-              <p className="text-blue-900 text-2xl">{oneProduct?.price} LE</p>
+              <p className="text-blue-900 text-2xl">{oneProduct?.price} AED</p>
               <p className="text-blue-900">{oneProduct?.description}</p>
               <div className="list text-black text-xl flex flex-col  mt-7">
                 <div className="listDetails1 ">

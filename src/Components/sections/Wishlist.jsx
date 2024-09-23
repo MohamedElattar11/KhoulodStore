@@ -214,7 +214,7 @@ const Wishlist = ({ setItemsInCart, itemInCart, cartItems, setCartItems,setWishl
                           </button>
                        
                         <p className="text-black text-sm font-bold self-end">
-                          {item.price}$
+                          {item.price} AED
                         </p>
                       </div>
                     </div>

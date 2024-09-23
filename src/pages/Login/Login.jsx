@@ -6,6 +6,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import LoaderBtn from "../../Components/Shared/LoaderBtn";
 import logo from "../../../public/images/logo.png";
+
 // import login from "/public/images/community/Mobile login-rafiki.png";
 
 function Login() {
@@ -229,6 +230,7 @@ function Login() {
           </div>
         </div>
       </div>
+     
     </>
   );
 }

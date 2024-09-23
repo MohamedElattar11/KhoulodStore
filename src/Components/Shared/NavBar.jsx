@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import logo from "../../../public/images/logo.png";
 import axios from "axios";
+import './navBar.css'
 // import logo from "../../../public/images/logo/furnivalLogo.png";
 
 const NavBar = ({setItemsInCart,itemInCart,itemsInWishlist,setItemsInWishlist }) => {
@@ -46,7 +47,7 @@ const NavBar = ({setItemsInCart,itemInCart,itemsInWishlist,setItemsInWishlist })
     <>
       <nav
         className={
-          "navbar fixed z-50 px-[1rem] sm:px-[2.5rem] md:px-[3rem] lg:px-[4rem] xl:px-[12rem] w-full py-2 justify-between " +
+          "navbar fixed z-50 px-[1rem] sm:px-[2.5rem] md:px-[3rem] lg:px-[4rem] xl:px-[12rem] w-full py-0 justify-between " +
           (visible ||
           location.pathname === "/profile" ||
           location.pathname === "/cart" ||
@@ -76,8 +77,8 @@ const NavBar = ({setItemsInCart,itemInCart,itemsInWishlist,setItemsInWishlist })
         </div>
 
         <Link to="/" className="flex gap-1">
-          <img src={logo} className="w-9" />
-          <h3 className=" text-white">Khoulod</h3>
+          <img src={logo} className="w-20 h-20" />
+          <h3 className=" text-white font">Khoulod</h3>
         </Link>
 
         {/* <div className="max-sm:hidden sm:hidden bg-gray-100 lg:flex md:hidden items-center rounded-3xl justify-around w-1/4 sm:w-1/5 py-1">

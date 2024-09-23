@@ -4,6 +4,7 @@ import { Pagination, A11y, Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import { useNavigate } from "react-router-dom";
 
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -12,9 +13,9 @@ import "swiper/css/effect-fade";
 
 import img1Slide1 from "../../../public/images/slider/img1-1.webp";
 import img2Slide1 from "../../../public/images/slider/img1-2.webp";
-import img1Slide2 from "../../../public/images/slider/img2-1.jpg";
-import img2Slide2 from "../../../public/images/slider/img2-2.jpg";
-import img1Slide4 from "../../../public/images/slider/img2-2.jpg";
+import img1Slide2 from "../../../public/images/slider/img2-1.png";
+import img2Slide2 from "../../../public/images/slider/img2-2.png";
+import img1Slide4 from "../../../public/images/slider/img2-2.png";
 import img2Slide4 from "../../../public/images/slider/img4-2.webp";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -25,36 +26,36 @@ const Slider = () => {
       bgimg: "bg-slide1",
       img1: img1Slide1,
       img2: img2Slide1,
-      title: "Better interiors",
+      title: "Khoulod Store",
       description:
-        "the perfect place for every contemporary furniture store and manufacturer. This is Furnival.",
+        "Our latest fashion trends, discover them now at Kholoud store",
     },
     {
       id: 2,
       bgimg: "bg-slide2",
       img1: img1Slide2,
       img2: img2Slide2,
-      title: "Better interiors",
+      title: "Khoulod Store",
       description:
-        "the perfect place for every contemporary furniture store and manufacturer. This is Furnival.",
+        "Our latest fashion trends, discover them now",
     },
     {
       id: 3,
       bgimg: "bg-slide1",
       img1: img1Slide1,
       img2: img2Slide1,
-      title: "Better interiors",
+      title: "Khoulod Store",
       description:
-        "the perfect place for every contemporary furniture store and manufacturer. This is Furnival.",
+        "Our latest fashion trends, discover them now",
     },
     {
       id: 4,
       bgimg: "bg-slide2",
       img1: img1Slide4,
       img2: img2Slide4,
-      title: "Better interiors",
+      title: "Khoulod Store",
       description:
-        "the perfect place for every contemporary furniture store and manufacturer. This is Furnival.",
+        "Our latest fashion trends, discover them now",
     },
   ];
   return (

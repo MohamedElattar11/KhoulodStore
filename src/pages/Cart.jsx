@@ -76,14 +76,14 @@ const Cart = ({
                         </h6>
 
                         <h5 className=" text-primary max-sm:font-normal max-sm:text-base">
-                          ${(item.price * item.quantity).toFixed(2)}
+                          {(item.price * item.quantity).toFixed(2)}AED
                         </h5>
                       </div>
 
                       <div className="w-full flex justify-between items-end max-sm:gap-0 max-sm:flex-col max-sm:items-start">
                         <div className="flex gap-1">
                           <p className="text-gray-700">Price per unit:</p>
-                          <p>${item.product?.price}</p>
+                          <p>{item.product?.price} AED</p>
                         </div>
                         <input
                           type="number"
@@ -110,7 +110,7 @@ const Cart = ({
                     <h6 className="font-normal text-gray-600 capitalize">
                       Subtotal
                     </h6>
-                    <h5 className="">${priceBeforeDiscount.toFixed(2)}</h5>
+                    <h5 className="">{priceBeforeDiscount.toFixed(2)}AED</h5>
                   </div>
                   {isCouponExist ? (
                     <div className="flex justify-between">
@@ -134,7 +134,7 @@ const Cart = ({
                     <h6 className="font-normal text-gray-600 capitalize">
                       total
                     </h6>
-                    <h5 className="">${priceAfterDiscount.toFixed(2)}</h5>
+                    <h5 className="">{priceAfterDiscount.toFixed(2)}AED</h5>
                   </div>
                 </div>
 
