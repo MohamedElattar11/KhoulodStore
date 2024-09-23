@@ -22,7 +22,7 @@ const Drawer = ({ children }) => {
             <li className="mx-auto">
               <Link to="/" className="flex gap-1">
                 <img src={logo} className="w-9" />
-                <h3 className=" text-white">Khoulod</h3>
+                <h3 className=" text-white font">Khoulod</h3>
               </Link>
               {/* <div className=" bg-gray-100 flex items-center rounded-2xl justify-around w-full">
                 <input
